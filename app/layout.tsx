@@ -18,6 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="monetag" content="187d10037653078aa29bb40a1964d982" />
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2384741298753510" crossOrigin="anonymous" />
         <Script src="https://5gvci.com/act/files/tag.min.js?z=11579889" data-cfasync="false" async />
         <Script id="monetag-inline" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='11579892',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
         <Script id="monetag-nap5k-2" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='11652789',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
