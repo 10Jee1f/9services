@@ -17,8 +17,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
-        <script type="text/javascript" dangerouslySetInnerHTML={{ __html: `aclib.runAutoTag({ zoneId: '9t0rlbxivp' });` }} />
         <meta name="monetag" content="187d10037653078aa29bb40a1964d982" />
         <Script src="https://5gvci.com/act/files/tag.min.js?z=11579889" data-cfasync="false" async />
         <Script id="monetag-inline" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='11579892',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
