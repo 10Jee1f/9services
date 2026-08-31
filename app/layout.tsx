@@ -17,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="Y9HDhrquS7yJExqvlReVPBHDlxhrpO2Y6SDeID8xJYU" />
         <meta name="admaven-placement" content="Bpdw8pda8" />
         <meta name="monetag" content="187d10037653078aa29bb40a1964d982" />
         <Script src="https://5gvci.com/act/files/tag.min.js?z=11579889" data-cfasync="false" async />
