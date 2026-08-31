@@ -95,6 +95,8 @@ export default function DownloadStep2() {
               <div style={{ fontSize: '22px', margin: '0 0 20px', color: '#ffcc00' }}>✓</div>
               <a
                 href={product.downloadLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-primary"
                 onClick={() => {
                   if (typeof window !== 'undefined' && 'Notification' in window && Notification.permission === 'default') {
@@ -106,7 +108,7 @@ export default function DownloadStep2() {
                 Download from MediaFire
               </a>
               <p style={{ fontSize: '11px', color: '#555', marginTop: '12px' }}>
-                Opens in the same page
+                Opens in a new tab
               </p>
             </>
           )}
