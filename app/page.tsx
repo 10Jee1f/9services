@@ -105,7 +105,7 @@ export default function Home() {
             {[
               { value: '2,000+', label: 'Happy Players' },
               { value: '0',      label: 'Bans Caused' },
-              { value: '3',      label: 'Products' },
+              { value: '4',      label: 'Products' },
               { value: '4.9/5',  label: 'Rating' },
               { value: '<5min',  label: 'Support Response' },
             ].map((s) => (
@@ -221,7 +221,7 @@ export default function Home() {
 
             <div>
               <h4 style={{ margin: '0 0 14px', fontSize: '12px', fontWeight: 700, color: '#ffffff', letterSpacing: '1px', textTransform: 'uppercase' }}>Products</h4>
-              {['CHEETOS (Free)', 'J4X (Free)', 'FFH4X V6.0'].map((l) => (
+              {['CHEETOS (Free)', 'J4X (Free)', 'FIVEM (Free)', 'FFH4X V6.0'].map((l) => (
                 <a key={l} href="#products" style={{ display: 'block', fontSize: '13px', color: '#555', marginBottom: '8px', textDecoration: 'none' }}
                   onMouseEnter={(e) => ((e.target as HTMLElement).style.color = '#a0a0a0')}
                   onMouseLeave={(e) => ((e.target as HTMLElement).style.color = '#555')}
