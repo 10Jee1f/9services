@@ -71,7 +71,6 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 1240,
     popular: true,
-    isNew: true,
   },
   {
     slug: 'jcanfly-ff-aimbot-pro',

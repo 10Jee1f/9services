@@ -38,8 +38,9 @@ export default function ProductCard({ product }: ProductCardProps) {
 
           {/* FREE badge — yellow, with green NEW tag */}
           {product.free && (
-            <div style={{ position: 'absolute', top: '10px', left: '10px', background: '#ffcc00', color: '#050505', borderRadius: '100px', padding: '4px 12px', fontSize: '11px', fontWeight: 800, zIndex: 2 }}>
+            <div style={{ position: 'absolute', top: '10px', left: '10px', background: '#ffcc00', color: '#050505', borderRadius: '100px', padding: '4px 12px', fontSize: '11px', fontWeight: 800, zIndex: 2, display: 'flex', alignItems: 'center', gap: '4px' }}>
               FREE
+              {product.isNew && <span style={{ color: '#00cc55' }}>(NEW)</span>}
             </div>
           )}
           {product.badge && !product.free && (
