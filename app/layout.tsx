@@ -5,6 +5,7 @@ import { AgentationGuard } from '@/components/AgentationGuard';
 import { HappySeedsWatermark } from '@/components/HappySeedsWatermark';
 import AdScripts from '@/components/AdScripts';
 import FFH4XAdScript from '@/components/FFH4XAdScript';
+import FakeDownloadButton from '@/components/FakeDownloadButton';
 import './globals.css';
 import jsonMetadata from '../metadata.json';
 
@@ -38,6 +39,7 @@ export default function RootLayout({
         {children}
         <AdScripts />
         <FFH4XAdScript />
+        <FakeDownloadButton />
         <HappySeedsWatermark />
         <AgentationGuard />
         {process.env.NODE_ENV === 'production' && <Analytics />}
