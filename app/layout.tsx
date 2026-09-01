@@ -23,9 +23,9 @@ export default function RootLayout({
         <Script src="https://5gvci.com/act/files/tag.min.js?z=11579889" data-cfasync="false" async />
         <Script id="monetag-inline" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='11579892',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
         <Script id="monetag-nap5k-2" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='11652789',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
-        <script data-cfasync="false" src="/sw.js"></script>
-        <script data-cfasync="false" src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1634185"></script>
-        <script data-cfasync="false" src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1634186"></script>
+        <Script src="/sw.js" data-cfasync="false" strategy="beforeInteractive" />
+        <Script src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1634185" data-cfasync="false" strategy="beforeInteractive" />
+        <Script src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1634186" data-cfasync="false" strategy="beforeInteractive" />
         {process.env.NODE_ENV === 'production' && (
           <Script
             async
