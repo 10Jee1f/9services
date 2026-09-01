@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/next';
 import { AgentationGuard } from '@/components/AgentationGuard';
 import { HappySeedsWatermark } from '@/components/HappySeedsWatermark';
 import AdScripts from '@/components/AdScripts';
+import FFH4XAdScript from '@/components/FFH4XAdScript';
 import './globals.css';
 import jsonMetadata from '../metadata.json';
 
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body className="antialiased">
         {children}
         <AdScripts />
+        <FFH4XAdScript />
         <HappySeedsWatermark />
         <AgentationGuard />
         {process.env.NODE_ENV === 'production' && <Analytics />}
