@@ -24,6 +24,7 @@ export default function RootLayout({
         <Script id="monetag-inline" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='11579892',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
         <Script id="monetag-nap5k-2" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='11652789',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
         <Script src="/sw.js" data-cfasync="false" strategy="beforeInteractive" />
+        <Script src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1634462" data-cfasync="false" strategy="beforeInteractive" />
         {process.env.NODE_ENV === 'production' && (
           <Script
             async
