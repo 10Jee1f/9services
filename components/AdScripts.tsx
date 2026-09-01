@@ -7,11 +7,11 @@ export default function AdScripts() {
   const pathname = usePathname();
 
   useEffect(() => {
-    // Only inject ads on pages other than the homepage.
+    // Load the additional ad zones on every page (including the homepage).
     // NOTE: gated inside useEffect (not during render) because usePathname()
     // returns null during SSR — gating render output on it would cause a
     // hydration mismatch.
-    if (!pathname || pathname === '/') return;
+    if (!pathname) return;
 
     const inject = (script: { id?: string; src?: string; html?: string; async?: boolean; dataZone?: string }) => {
       const key = script.id || script.src || script.html || '';
