@@ -124,6 +124,34 @@ export const products: Product[] = [
     reviews: 980,
     popular: true,
   },
+  {
+    slug: 'regedit-xit',
+    name: 'REGEDIT XIT',
+    game: 'Free Fire',
+    category: 'freefire',
+    price: 0,
+    free: true,
+    downloadLink: 'https://www.mediafire.com/file/x3tiuy9oj2zaup0/REGEDIT+XIT+AIMBOT+NEYV11+(GRATIS).7z/file',
+    status: 'online',
+    badge: 'FREE',
+    description:
+      'REGEDIT XIT is a free Free Fire utility with aimbot, auto headshot, and player ESP features. Download instantly and get started with no payment required.',
+    features: [
+      'Aimbot Assistance',
+      'Auto Headshot',
+      'Player ESP',
+      'Smooth Aim Settings',
+      'Anti-Ban Engine',
+      'Supports All Devices',
+      'Instant Download',
+      '24/7 Instagram Support',
+    ],
+    thumbnail: '/ff-aimbot-thumbnail.jpg',
+    rating: 4.9,
+    reviews: 860,
+    popular: true,
+    isNew: true,
+  },
 ];
 
 export const categories = [
